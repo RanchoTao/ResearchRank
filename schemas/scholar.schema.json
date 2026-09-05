@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "current_affiliation",
+    "topics"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_affiliation": {
+      "type": "string"
+    },
+    "homepage_url": {
+      "type": "string"
+    },
+    "google_scholar_url": {
+      "type": "string"
+    },
+    "semantic_scholar_id": {
+      "type": "string"
+    },
+    "openalex_id": {
+      "type": "string"
+    },
+    "dblp_url": {
+      "type": "string"
+    },
+    "github_username": {
+      "type": "string"
+    },
+    "x_twitter_url": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "career_stage": {
+      "type": "string"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "representative_papers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affiliated_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "$id": "https://researchrank.example/schemas/scholar.schema.json"
+}

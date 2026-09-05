@@ -1,0 +1,32 @@
+{
+  "scholars": [
+    {
+      "id": "song-han",
+      "name": "Song Han",
+      "aliases": [],
+      "current_affiliation": "Massachusetts Institute of Technology",
+      "homepage_url": "https://hanlab.mit.edu/songhan",
+      "google_scholar_url": "",
+      "semantic_scholar_id": "",
+      "openalex_id": "",
+      "dblp_url": "",
+      "github_username": "songhan",
+      "x_twitter_url": "",
+      "role": "principal_investigator",
+      "career_stage": "faculty",
+      "topics": [
+        "efficient-llm-vlm-inference",
+        "ml-systems"
+      ],
+      "representative_papers": [
+        "smoothquant"
+      ],
+      "affiliated_groups": [
+        "mit-han-lab"
+      ],
+      "notes": "Seed example; identifiers and associations should be curator-verified.",
+      "created_at": "2026-09-04",
+      "updated_at": "2026-09-04"
+    }
+  ]
+}

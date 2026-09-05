@@ -1,0 +1,164 @@
+{
+  "groups": [
+    {
+      "id": "mit-han-lab",
+      "name": "MIT Han Lab",
+      "aliases": [
+        "Han Lab"
+      ],
+      "institution": "Massachusetts Institute of Technology",
+      "country_or_region": "United States",
+      "homepage_url": "https://hanlab.mit.edu/",
+      "pi_scholars": [
+        "song-han"
+      ],
+      "members": [],
+      "alumni": [],
+      "topics": [
+        "Efficient LLM/VLM Inference",
+        "ML Systems"
+      ],
+      "representative_papers": [
+        "smoothquant"
+      ],
+      "representative_repositories": [
+        "smoothquant-repo"
+      ],
+      "representative_datasets": [],
+      "representative_benchmarks": [],
+      "strengths": [
+        "Efficient deep learning systems"
+      ],
+      "limitations": [
+        "Seed record is intentionally incomplete"
+      ],
+      "score_inputs": {
+        "top_venue_papers_recent": 70,
+        "representative_paper_score": 75,
+        "open_source_score": 80,
+        "benchmark_score": 50,
+        "student_pipeline_score": 65,
+        "industry_adoption_score": 70,
+        "growth_score": 65,
+        "curator_adjustment": 50
+      },
+      "notes": "Example only; inputs are placeholders for testing, not a ranking.",
+      "created_at": "2026-09-04",
+      "updated_at": "2026-09-04"
+    },
+    {
+      "id": "tsinghua-effalg",
+      "name": "Tsinghua NICS-EFC / EffAlg",
+      "aliases": [
+        "EffAlg"
+      ],
+      "institution": "Tsinghua University",
+      "country_or_region": "China",
+      "homepage_url": "",
+      "pi_scholars": [],
+      "members": [],
+      "alumni": [],
+      "topics": [
+        "Efficient LLM/VLM Inference",
+        "ML Systems"
+      ],
+      "representative_papers": [],
+      "representative_repositories": [],
+      "representative_datasets": [],
+      "representative_benchmarks": [],
+      "strengths": [],
+      "limitations": [
+        "Seed record is intentionally incomplete"
+      ],
+      "score_inputs": {},
+      "notes": "Example only; requires curator verification.",
+      "created_at": "2026-09-04",
+      "updated_at": "2026-09-04"
+    },
+    {
+      "id": "opengvlab",
+      "name": "Shanghai AI Lab / OpenGVLab",
+      "aliases": [
+        "OpenGVLab"
+      ],
+      "institution": "Shanghai AI Laboratory",
+      "country_or_region": "China",
+      "homepage_url": "https://opengvlab.com/",
+      "pi_scholars": [],
+      "members": [],
+      "alumni": [],
+      "topics": [
+        "Streaming VLM",
+        "Multimodal Foundation Models"
+      ],
+      "representative_papers": [],
+      "representative_repositories": [],
+      "representative_datasets": [],
+      "representative_benchmarks": [],
+      "strengths": [],
+      "limitations": [
+        "Seed record is intentionally incomplete"
+      ],
+      "score_inputs": {},
+      "notes": "Example only; requires curator verification.",
+      "created_at": "2026-09-04",
+      "updated_at": "2026-09-04"
+    },
+    {
+      "id": "qwen-team",
+      "name": "Qwen Team",
+      "aliases": [],
+      "institution": "Alibaba Cloud",
+      "country_or_region": "China",
+      "homepage_url": "https://qwen.ai/",
+      "pi_scholars": [],
+      "members": [],
+      "alumni": [],
+      "topics": [
+        "Long-Context Modeling",
+        "Multimodal Foundation Models"
+      ],
+      "representative_papers": [],
+      "representative_repositories": [],
+      "representative_datasets": [],
+      "representative_benchmarks": [],
+      "strengths": [],
+      "limitations": [
+        "Seed record is intentionally incomplete"
+      ],
+      "score_inputs": {},
+      "notes": "Example only; requires curator verification.",
+      "created_at": "2026-09-04",
+      "updated_at": "2026-09-04"
+    },
+    {
+      "id": "cuhk-mmlab",
+      "name": "CUHK MMLab",
+      "aliases": [
+        "Multimedia Laboratory"
+      ],
+      "institution": "The Chinese University of Hong Kong",
+      "country_or_region": "Hong Kong",
+      "homepage_url": "https://mmlab.ie.cuhk.edu.hk/",
+      "pi_scholars": [],
+      "members": [],
+      "alumni": [],
+      "topics": [
+        "Streaming VLM",
+        "Multimodal Foundation Models"
+      ],
+      "representative_papers": [],
+      "representative_repositories": [],
+      "representative_datasets": [],
+      "representative_benchmarks": [],
+      "strengths": [],
+      "limitations": [
+        "Seed record is intentionally incomplete"
+      ],
+      "score_inputs": {},
+      "notes": "Example only; requires curator verification.",
+      "created_at": "2026-09-04",
+      "updated_at": "2026-09-04"
+    }
+  ]
+}

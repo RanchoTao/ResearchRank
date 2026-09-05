@@ -1,0 +1,130 @@
+{
+  "topics": [
+    {
+      "id": "efficient-llm-vlm-inference",
+      "name": "Efficient LLM/VLM Inference",
+      "parent_field": "cs.LG",
+      "aliases": [
+        "Efficient LLM Inference",
+        "Efficient VLM Inference"
+      ],
+      "description": "Methods and systems that reduce foundation-model inference cost and latency.",
+      "related_topics": [
+        "ml-systems",
+        "long-context-modeling"
+      ],
+      "key_papers": [
+        "smoothquant"
+      ],
+      "key_groups": [
+        "mit-han-lab",
+        "tsinghua-effalg"
+      ],
+      "key_scholars": [
+        "song-han"
+      ],
+      "key_repositories": [
+        "smoothquant-repo"
+      ],
+      "trend_status": "growing",
+      "overcrowding_score": 65,
+      "opportunity_score": 60,
+      "notes": "Illustrative values, not an authoritative assessment."
+    },
+    {
+      "id": "streaming-vlm",
+      "name": "Streaming VLM",
+      "parent_field": "cs.CV",
+      "aliases": [
+        "Streaming Vision-Language Models"
+      ],
+      "description": "Vision-language models that reason over continuously arriving visual input.",
+      "related_topics": [
+        "long-context-modeling",
+        "multimodal-foundation-models"
+      ],
+      "key_papers": [],
+      "key_groups": [
+        "opengvlab",
+        "cuhk-mmlab"
+      ],
+      "key_scholars": [],
+      "key_repositories": [],
+      "trend_status": "emerging",
+      "overcrowding_score": 35,
+      "opportunity_score": 80,
+      "notes": "Illustrative values, not an authoritative assessment."
+    },
+    {
+      "id": "long-context-modeling",
+      "name": "Long-Context Modeling",
+      "parent_field": "cs.CL",
+      "aliases": [
+        "Long-Context and Streaming Models"
+      ],
+      "description": "Architectures and systems for processing extended or persistent context.",
+      "related_topics": [
+        "streaming-vlm",
+        "efficient-llm-vlm-inference"
+      ],
+      "key_papers": [],
+      "key_groups": [
+        "qwen-team"
+      ],
+      "key_scholars": [],
+      "key_repositories": [],
+      "trend_status": "growing",
+      "overcrowding_score": 70,
+      "opportunity_score": 55,
+      "notes": "Illustrative values, not an authoritative assessment."
+    },
+    {
+      "id": "multimodal-foundation-models",
+      "name": "Multimodal Foundation Models",
+      "parent_field": "cs.CV",
+      "aliases": [
+        "Vision-Language Models"
+      ],
+      "description": "General-purpose models spanning vision, language, and other modalities.",
+      "related_topics": [
+        "streaming-vlm"
+      ],
+      "key_papers": [],
+      "key_groups": [
+        "opengvlab",
+        "qwen-team",
+        "cuhk-mmlab"
+      ],
+      "key_scholars": [],
+      "key_repositories": [],
+      "trend_status": "active",
+      "overcrowding_score": 75,
+      "opportunity_score": 50,
+      "notes": "Illustrative values, not an authoritative assessment."
+    },
+    {
+      "id": "ml-systems",
+      "name": "ML Systems",
+      "parent_field": "cs.DC",
+      "aliases": [
+        "Machine Learning Systems",
+        "Inference Serving"
+      ],
+      "description": "Computer systems for developing, training, and serving machine learning models.",
+      "related_topics": [
+        "efficient-llm-vlm-inference"
+      ],
+      "key_papers": [],
+      "key_groups": [
+        "mit-han-lab",
+        "tsinghua-effalg"
+      ],
+      "key_scholars": [],
+      "key_repositories": [],
+      "trend_status": "active",
+      "overcrowding_score": 60,
+      "opportunity_score": 65,
+      "notes": "Illustrative values, not an authoritative assessment."
+    }
+  ]
+}

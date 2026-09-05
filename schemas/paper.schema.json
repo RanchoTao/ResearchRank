@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "authors",
+    "year",
+    "topics"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "venue": {
+      "type": "string"
+    },
+    "arxiv_id": {
+      "type": "string"
+    },
+    "doi": {
+      "type": "string"
+    },
+    "openreview_url": {
+      "type": "string"
+    },
+    "semantic_scholar_id": {
+      "type": "string"
+    },
+    "openalex_id": {
+      "type": "string"
+    },
+    "code_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "project_url": {
+      "type": "string"
+    },
+    "dataset_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "benchmark_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contribution_type": {
+      "type": "string"
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1900
+    },
+    "citation_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "influential_citation_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "rank_signals": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      }
+    }
+  },
+  "$id": "https://researchrank.example/schemas/paper.schema.json"
+}

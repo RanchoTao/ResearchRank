@@ -1,0 +1,31 @@
+{
+  "papers": [
+    {
+      "id": "smoothquant",
+      "name": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+      "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+      "authors": [],
+      "year": 2022,
+      "venue": "arXiv",
+      "arxiv_id": "2211.10438",
+      "doi": "",
+      "openreview_url": "",
+      "semantic_scholar_id": "",
+      "openalex_id": "",
+      "code_urls": [
+        "https://github.com/mit-han-lab/smoothquant"
+      ],
+      "project_url": "",
+      "dataset_urls": [],
+      "benchmark_urls": [],
+      "citation_count": null,
+      "influential_citation_count": null,
+      "topics": [
+        "efficient-llm-vlm-inference"
+      ],
+      "contribution_type": "method",
+      "rank_signals": {},
+      "notes": "Seed metadata only; not an impact claim."
+    }
+  ]
+}

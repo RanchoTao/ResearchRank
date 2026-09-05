@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "institution",
+    "topics"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "institution": {
+      "type": "string"
+    },
+    "country_or_region": {
+      "type": "string"
+    },
+    "homepage_url": {
+      "type": "string"
+    },
+    "pi_scholars": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "members": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alumni": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "representative_papers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "representative_repositories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "representative_datasets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "representative_benchmarks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "strengths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "score_inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "top_venue_papers_recent": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "representative_paper_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "open_source_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "benchmark_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "student_pipeline_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "industry_adoption_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "growth_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "curator_adjustment": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    }
+  },
+  "$id": "https://researchrank.example/schemas/group.schema.json"
+}

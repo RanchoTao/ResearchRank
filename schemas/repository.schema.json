@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "owner",
+    "github_url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "github_url": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "last_commit_at": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "related_papers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_scholars": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "package_or_framework_integrations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stars": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "forks": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "watchers": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    }
+  },
+  "$id": "https://researchrank.example/schemas/repository.schema.json"
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "parent_field",
+    "description"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string"
+    },
+    "parent_field": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "related_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_papers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_scholars": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_repositories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trend_status": {
+      "type": "string"
+    },
+    "overcrowding_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 100
+    },
+    "opportunity_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 100
+    }
+  },
+  "$id": "https://researchrank.example/schemas/topic.schema.json"
+}

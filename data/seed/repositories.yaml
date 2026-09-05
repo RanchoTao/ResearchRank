@@ -1,0 +1,27 @@
+{
+  "repositories": [
+    {
+      "id": "smoothquant-repo",
+      "name": "SmoothQuant",
+      "owner": "mit-han-lab",
+      "github_url": "https://github.com/mit-han-lab/smoothquant",
+      "stars": null,
+      "forks": null,
+      "watchers": null,
+      "license": "Apache-2.0",
+      "last_commit_at": "",
+      "created_at": "",
+      "related_papers": [
+        "smoothquant"
+      ],
+      "related_groups": [
+        "mit-han-lab"
+      ],
+      "related_scholars": [
+        "song-han"
+      ],
+      "package_or_framework_integrations": [],
+      "notes": "Seed linkage only; live repository metrics are intentionally omitted."
+    }
+  ]
+}

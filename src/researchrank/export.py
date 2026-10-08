@@ -8,7 +8,7 @@ from typing import Any
 def export_json(data: dict[str, list[dict[str, Any]]], output: Path | None = None) -> str:
     rendered = json.dumps(data, indent=2, sort_keys=True, ensure_ascii=False) + "\n"
     if output:
-        output.write_text(rendered)
+        output.write_text(rendered, encoding="utf-8")
     return rendered
 
 
@@ -22,5 +22,5 @@ def export_markdown(data: dict[str, list[dict[str, Any]]], output: Path | None =
         lines.append("")
     rendered = "\n".join(lines)
     if output:
-        output.write_text(rendered)
+        output.write_text(rendered, encoding="utf-8")
     return rendered
